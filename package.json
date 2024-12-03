@@ -5,15 +5,16 @@
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon server.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "lint": "npx eslint ."
   },
   "author": "Anna Vasileva",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.1",
-    "mongoose": "^6.6.1"
+    "mongoose": "^8.8.3",
+    "validator": "^13.12.0"
   },
   "devDependencies": {
     "eslint": "^8.57.1",
